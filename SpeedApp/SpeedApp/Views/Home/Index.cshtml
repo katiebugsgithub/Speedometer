@@ -1,0 +1,33 @@
+﻿@model SpeedApp.ViewModel.SpeedViewModel;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Enter your Birthday:</p>
+                <input type="checkbox" asp-for=@Model.IsBirthday />
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="Submit">Click Here to Check your Speed</button>
+            </div>
+        </div>
+    </div>
+}
+@if (Model.Speed > 0)
+{
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>You were going @Model.Speed.ToString()</h2>
+                <h2>Your fine code is: @Model.FineCode</h2>
+            </div>
+        </div>
+    </div>
+}

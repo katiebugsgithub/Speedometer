@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedApp", "SpeedApp\SpeedApp.csproj", "{5A4AF1B4-506E-4D32-86E4-53A0D900400B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A4AF1B4-506E-4D32-86E4-53A0D900400B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4AF1B4-506E-4D32-86E4-53A0D900400B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4AF1B4-506E-4D32-86E4-53A0D900400B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4AF1B4-506E-4D32-86E4-53A0D900400B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4622C39F-EFF8-48AA-8658-FCDFE3CDBB11}
+	EndGlobalSection
+EndGlobal
